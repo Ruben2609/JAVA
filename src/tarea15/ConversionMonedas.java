@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 	        System.out.print("Ingrese el monto a convertir: ");
 	        double monto = scanner.nextDouble();
-
+	        
 	        System.out.println("Seleccione la moneda de origen:");
 	        System.out.println("1. Soles");
 	        System.out.println("2. Pesos");
@@ -18,8 +18,7 @@ import java.util.Scanner;
 	        double montoConvertido = convertirMoneda(monto, opcionOrigen);
 
 	        System.out.println("El monto convertido es: " + montoConvertido);
-
-	        scanner.close();
+	        
 	    }
 
 	    public static double convertirMoneda(double monto, int opcionOrigen) {
