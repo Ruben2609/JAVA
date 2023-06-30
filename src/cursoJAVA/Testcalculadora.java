@@ -12,7 +12,7 @@ public class Testcalculadora {
 		
 		Calculadoracompleta calculadora = null;
 		
-		do {
+		
 			System.out.println("[1]Suma");
 			System.out.println("[2]Resta");
 			System.out.println("[3]Division");
@@ -55,8 +55,7 @@ public class Testcalculadora {
 					break;
 					
 			}
-		} while (opt!= 5);
+	} 
 			
-	}
 }
 
